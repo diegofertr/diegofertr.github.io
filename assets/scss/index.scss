@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import 'typography';
+@import 'colors';
+
+body {
+  margin: 0;
+  font-family: $ff-Roboto;
+}
+
+.container {
+
+  h1 {
+    font-family: $ff-VT;
+    color: $info;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: $grey-dark;
+  }
+}
+
+.is-two-fifths {
+  background: $grey-lighter;
+}
+
+.footer {
+
+  .icon {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "diegofertr",
+  "version": "1.0.0",
+  "description": "Portafoli Diego Ticona Ramos",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass assets/scss/index.scss build/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Diego Ticona",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0",
+    "sass": "^1.17.0"
+  }
+}
