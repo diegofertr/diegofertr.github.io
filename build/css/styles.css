@@ -6759,8 +6759,26 @@ body {
 .container p {
   color: #4a4a4a; }
 
+.card {
+  overflow: hidden; }
+
+.card.large {
+  border-radius: 5px; }
+
 .is-two-fifths {
   background: #dbdbdb; }
 
 .footer .icon {
   font-size: 2rem; }
+
+.proyectos-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 5px;
+  justify-content: center; }
+  .proyectos-section .level-1 {
+    grid-row-end: span 3; }
+  .proyectos-section .level-2 {
+    grid-row-end: span 2; }
+  .proyectos-section .level-3 {
+    grid-row-end: span 1; }

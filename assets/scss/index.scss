@@ -21,6 +21,11 @@ body {
   }
 }
 
+.card {overflow:hidden}
+.card.large {
+  border-radius: 5px;
+}
+
 .is-two-fifths {
   background: $grey-lighter;
 }
@@ -31,3 +36,22 @@ body {
     font-size: 2rem;
   }
 }
+
+.proyectos-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 5px;
+  justify-content: center;
+
+  .level-1 {
+    grid-row-end: span 3;
+  }
+  .level-2 {
+    grid-row-end: span 2;
+  }
+  .level-3 {
+    grid-row-end: span 1;
+  }
+}
+
+
