@@ -6751,10 +6751,29 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif; }
 
+.principal {
+  background-color: #f5f8faff;
+  background-image: url("/assets/img/dribbb-coffee.gif");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0px;
+  z-index: -1; }
+  .principal h1 {
+    font-family: "VT323", monospace;
+    color: #209cee;
+    font-size: 2.5rem; }
+  .principal .subtitle {
+    color: #4a4a4a; }
+
 .container h1 {
   font-family: "VT323", monospace;
   color: #209cee;
-  font-size: 2.5rem; }
+  font-size: 4rem; }
+
+.container h2 {
+  font-weight: bold;
+  font-size: 2rem; }
 
 .container p {
   color: #4a4a4a; }
@@ -6763,13 +6782,10 @@ body {
   overflow: hidden; }
 
 .card.large {
-  border-radius: 5px; }
-
-.is-two-fifths {
-  background: #dbdbdb; }
+  border-radius: 10px; }
 
 .footer .icon {
-  font-size: 2rem; }
+  font-size: 1.5em; }
 
 .proyectos-section {
   display: grid;
@@ -6782,3 +6798,8 @@ body {
     grid-row-end: span 2; }
   .proyectos-section .level-3 {
     grid-row-end: span 1; }
+
+@media (max-width: 600px) {
+  .container {
+    background-color: rgba(245, 248, 250, 0.9);
+    border-radius: 10px; } }

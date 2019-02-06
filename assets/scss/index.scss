@@ -8,7 +8,14 @@ body {
   font-family: $ff-Roboto;
 }
 
-.container {
+.principal {
+  background-color: #f5f8faff;
+  background-image: url('/assets/img/dribbb-coffee.gif');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0px;
+  z-index: -1;
 
   h1 {
     font-family: $ff-VT;
@@ -16,24 +23,41 @@ body {
     font-size: 2.5rem;
   }
 
+  .subtitle {
+    color: $grey-dark;
+  }
+}
+
+.container {
+
+  h1 {
+    font-family: $ff-VT;
+    color: $info;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
   p {
     color: $grey-dark;
   }
 }
 
-.card {overflow:hidden}
-.card.large {
-  border-radius: 5px;
-}
+.card {
+  overflow:hidden
 
-.is-two-fifths {
-  background: $grey-lighter;
+}
+.card.large {
+  border-radius: 10px;
 }
 
 .footer {
 
   .icon {
-    font-size: 2rem;
+    font-size: 1.5em;
   }
 }
 
@@ -55,3 +79,9 @@ body {
 }
 
 
+@media (max-width: 600px) {
+  .container {
+    background-color: rgba($color: #f5f8faff, $alpha: 0.9);
+    border-radius: 10px;
+  }
+}
