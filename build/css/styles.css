@@ -6751,6 +6751,9 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif; }
 
+.navbar {
+  background-color: #f5f8faff; }
+
 .principal {
   background-color: #f5f8faff;
   background-image: url("/assets/img/dribbb-coffee.gif");
