@@ -6749,10 +6749,17 @@ label.panel-block {
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f8faff; }
 
 .navbar {
-  background-color: #f5f8faff; }
+  background-color: #f5f8faff;
+  background-image: url("/assets/img/back.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 140px; }
+  .navbar a span {
+    color: white; }
 
 .principal {
   background-color: #f5f8faff;
